@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to bottom, #051937, #123460, #1b528c, #1e73ba, #1296eb);
+    height: 100vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-top: 1em;
+    width: 50%;
+}
