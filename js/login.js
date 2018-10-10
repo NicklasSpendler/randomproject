@@ -1,11 +1,15 @@
-var username = document.querySelector("#username");
-var password = document.querySelector("#password");
+var usernameinput = document.querySelector("#username");
+var passwordinput = document.querySelector("#password");
+
+var username = "diller";
+var password = "diller";
+
 var button = document.querySelector("#submit");
 
 
 
 button.addEventListener("click",function(){
-    if (username.value == "diller" && password.value == "diller"){
+    if (usernameinput.value == "diller" && passwordinput.value == "diller"){
         console.log("du er logget ind");
     }else{
         console.log("du er ikke logget ind");

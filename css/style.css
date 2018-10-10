@@ -8,6 +8,10 @@ p{
 h1{
     font-family: 'Open Sans', sans-serif;
 }
+label{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
 #wrapper{
     margin: 0 2em;
 }
